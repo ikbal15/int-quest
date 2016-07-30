@@ -9,13 +9,18 @@ class Money
         $this->amount = (float) $amount;
     }
 
-    public function value()
+    public function getValue()
     {
         return $this->amount;
+    }
+    
+    public function setValue($amount)
+    {
+        $this->amount = $amount;
     }
 
     public function __toString()
     {
-        return (string) $this->value();
+        return (string) $this->getValue();
     }
 }

@@ -29,7 +29,7 @@ class BankAccount implements IfaceBankAccount
         }
         else
         {
-            throw new Exception('Withdrawl amount larger than balance');
+            
         }
     }
 
